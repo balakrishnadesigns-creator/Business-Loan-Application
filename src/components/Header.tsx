@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Bell, Save, FileText, AlertCircle, CheckCircle2, Download } from 'lucide-react';
 
 const Header = ({ currentStep }: any) => {

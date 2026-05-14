@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Info, CheckCircle2, ArrowRight, ArrowLeft, Download, Edit3, MessageSquare, PhoneCall, Clock, FileText, AlertTriangle, Building, IndianRupee, FileCheck, User, ShieldCheck, UploadCloud, Eye } from 'lucide-react';
 
 const ReviewSection = ({ title, icon: Icon, subtitle, status, statusColor, expanded, onToggle, onEdit, children }: any) => {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Shield, Home, FileText, Activity, Folder, User, LifeBuoy, LogOut, Phone } from 'lucide-react';
 
 const Sidebar = () => {

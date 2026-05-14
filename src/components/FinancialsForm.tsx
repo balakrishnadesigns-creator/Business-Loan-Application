@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Info, CheckCircle2, ChevronUp, ChevronDown, ArrowRight, ArrowLeft, Save, Edit3, MessageSquare, PhoneCall, Clock } from 'lucide-react';
 import { Input, Select } from './UIComponents';
 

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState, useEffect, ChangeEvent } from 'react';
 import { Upload, CheckCircle2, ChevronDown, Calendar, ChevronLeft, ChevronRight, X } from 'lucide-react';
 
 export const Input = ({ label, required, rightElement, ...props }: any) => (
@@ -35,7 +35,7 @@ export const FileUpload = ({ label, required, uploadedFile: initialFile }: any) 
   const [file, setFile] = useState(initialFile || null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
       setFile(e.target.files[0].name);
     }
@@ -75,7 +75,7 @@ export const DatePicker = ({ label, required, value, onChange, ...props }: any) 
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Close on outside click
-  React.useEffect(() => {
+  useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (containerRef.current && !containerRef.current.contains(event.target as Node)) {
         setIsOpen(false);
