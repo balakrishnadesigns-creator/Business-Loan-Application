@@ -23,7 +23,7 @@ function App() {
         {currentStep === 3 && <DocumentsForm onBack={() => setCurrentStep(2)} onNext={() => setCurrentStep(4)} goToStep={setCurrentStep} />}
         {currentStep === 4 && <GuarantorForm onBack={() => setCurrentStep(3)} onNext={() => setCurrentStep(5)} goToStep={setCurrentStep} />}
         {currentStep === 5 && <ReviewForm onBack={() => setCurrentStep(4)} onNext={() => setCurrentStep(6)} goToStep={setCurrentStep} />}
-        {currentStep === 6 && <SubmitForm goToStep={setCurrentStep} />}
+        {currentStep === 6 && <SubmitForm />}
       </div>
     </div>
   );

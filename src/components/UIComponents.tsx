@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect, ChangeEvent } from 'react';
+import { useRef, useState, useEffect, type ChangeEvent } from 'react';
 import { Upload, CheckCircle2, ChevronDown, Calendar, ChevronLeft, ChevronRight, X } from 'lucide-react';
 
 export const Input = ({ label, required, rightElement, ...props }: any) => (

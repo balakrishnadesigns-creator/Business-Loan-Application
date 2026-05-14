@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Info, CheckCircle2, ChevronUp, ChevronDown, ArrowRight, ArrowLeft, IndianRupee, Activity, Save } from 'lucide-react';
+import { Info, CheckCircle2, ChevronUp, ChevronDown, ArrowRight, ArrowLeft, Activity, Save } from 'lucide-react';
 import { Input, Select, FileUpload, DatePicker } from './UIComponents';
 
 const ApplicationForm = ({ onNext }: any) => {

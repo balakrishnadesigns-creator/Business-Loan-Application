@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { Info, CheckCircle2, ArrowRight, ArrowLeft, Save, Eye, MoreVertical, UploadCloud, AlertTriangle, FileText, Trash2, Clock, Lock, MessageSquare, PhoneCall, Download, History, ExternalLink, X } from 'lucide-react';
+import { Info, CheckCircle2, ArrowRight, ArrowLeft, Save, Eye, MoreVertical, UploadCloud, AlertTriangle, FileText, Trash2, Clock, Lock, MessageSquare, PhoneCall, Download, History, ExternalLink } from 'lucide-react';
 import { Modal } from './UIComponents';
 
 const DocumentsForm = ({ onBack, onNext }: any) => {

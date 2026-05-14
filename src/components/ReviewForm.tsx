@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Info, CheckCircle2, ArrowRight, ArrowLeft, Download, Edit3, MessageSquare, PhoneCall, Clock, FileText, AlertTriangle, Building, IndianRupee, FileCheck, User, ShieldCheck, UploadCloud, Eye } from 'lucide-react';
 
-const ReviewSection = ({ title, icon: Icon, subtitle, status, statusColor, expanded, onToggle, onEdit, children }: any) => {
+const ReviewSection = ({ title, icon: Icon, subtitle, status, expanded, onToggle, onEdit, children }: any) => {
   return (
     <div style={{ backgroundColor: 'white', borderRadius: '0.5rem', border: '1px solid var(--border)', marginBottom: '1rem', overflow: 'hidden' }}>
       <div

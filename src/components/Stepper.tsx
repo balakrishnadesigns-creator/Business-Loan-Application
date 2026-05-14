@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import { Check } from 'lucide-react';
 
 const Stepper = ({ currentStep = 1 }) => {
@@ -24,7 +25,7 @@ const Stepper = ({ currentStep = 1 }) => {
         const isActive = step.num === currentStep;
         
         return (
-          <React.Fragment key={step.num}>
+          <Fragment key={step.num}>
             <div className="stepper-item" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
               <div style={{
                 width: '28px', height: '28px', borderRadius: '50%',
@@ -47,7 +48,7 @@ const Stepper = ({ currentStep = 1 }) => {
             {index < steps.length - 1 && (
               <div className="stepper-line" style={{ flex: 1, height: '1px', backgroundColor: 'var(--border)', margin: '0 1rem' }} />
             )}
-          </React.Fragment>
+          </Fragment>
         );
       })}
     </div>

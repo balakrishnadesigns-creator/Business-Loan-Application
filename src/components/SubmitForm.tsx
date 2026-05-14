@@ -1,6 +1,6 @@
 import { CheckCircle2, Copy, Clock, FileText, IndianRupee, Calendar, ShieldCheck, ArrowRight, Activity, MessageCircle, Mail, PhoneCall, MessageSquare } from 'lucide-react';
 
-const SubmitForm = ({ goToStep }: any) => {
+const SubmitForm = () => {
   return (
     <div style={{ padding: '2rem', flex: 1, overflowY: 'auto', display: 'flex', gap: '2rem' }}>
       
